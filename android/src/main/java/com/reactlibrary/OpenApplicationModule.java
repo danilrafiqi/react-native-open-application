@@ -20,7 +20,7 @@ public class OpenApplicationModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    private boolean openApplication(Promise promise, String packageName) {
+    private void openApplication(String packageName, Promise promise) {
         PackageManager pm = this.reactContext.getPackageManager();
         try {
             this.reactContext.startActivity(pm.getLaunchIntentForPackage(packageName));
