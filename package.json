@@ -1,0 +1,27 @@
+
+{
+  "name": "react-native-open-application",
+  "version": "1.0.14",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-open-application",
+    "react-native-open-app",
+    "react-native-launch-other-app"
+  ],
+  "author": "danilrafiqi",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": "^0.41.2",
+    "react-native-windows": "0.41.0-rc.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danilrafiqi/react-native-open-application.git",
+    "baseUrl": "https://github.com/danilrafiqi/react-native-open-application"
+  }
+}
