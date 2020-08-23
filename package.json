@@ -2,7 +2,7 @@
 {
   "name": "react-native-open-application",
   "version": "1.0.14",
-  "description": "",
+  "description": "Package to open other application",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
